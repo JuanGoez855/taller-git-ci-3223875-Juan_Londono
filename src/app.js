@@ -2,6 +2,7 @@
   return a + b;
 }
 
+// mejora de UI
 export function agregarItem(texto) {
   const lista = document.getElementById('lista');
   if (!lista) return null;
