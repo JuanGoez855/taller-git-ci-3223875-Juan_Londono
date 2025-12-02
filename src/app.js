@@ -12,4 +12,5 @@ export function agregarItem(texto) {
   return li;
 }
 
+
 console.log('App lista');
