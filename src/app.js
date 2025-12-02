@@ -2,6 +2,7 @@
   return a + b;
 }
 
+// mejora de UI
 export function agregarItem(texto) {
   const lista = document.getElementById('lista');
   if (!lista) return null;
@@ -10,5 +11,6 @@ export function agregarItem(texto) {
   lista.appendChild(li);
   return li;
 }
+
 
 console.log('App lista');
